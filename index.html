@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis favoritos y Más</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mis Favoritos y Más</h1>
+      <nav>
+        <a href="#ranking"><strong>Ranking</strong></a>
+        <a href="#aficiones"><strong>Aficiones</strong></a>
+        <a href="multimedia"><strong>Multimedia</strong></a>
+        <a href="formulario"><strong>Formulario</strong></a>
+      </nav>
+    </header>
+
+    <section id="ranking">
+      <h2>Mi Ranking Favorito</h2>
+      <p>Este es mir ranking personal de mis series, peliculas</p>
+      <ol>
+        <li>Matrix</li>
+        <li>Pursuit Of Happyness</li>
+        <li>Avatar The Last Airbender</li>
+        <li>Dark</li>
+        <li>About time</li>
+      </ol>
+    </section>
+
+    <section id="aficiones">
+      <h2>Mis Aficiones</h2>
+      <p>Yo prefiero decirle Hobbies</p>
+      <ul>
+        <li>Hablar Idiomas</li>
+        <li>Escuchar musica en Frances</li>
+        <li>Ver Peliculas en Aleman</li>
+        <li>Programar</li>
+        <li>Ver peliculas con mi novia</li>
+      </ul>
+    </section>
+
+    <section id="multimedia">
+      <h2>Contenido Multimedia</h2>
+      <p>Imagenes y un gif</p>
+      <img src="https://i.imgflip.com/3y3hxm.jpg" alt="Imagen divertida" />
+      <img
+        src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tBkBBEnKeOGo7eUaMW2GxA.jpeg"
+        alt="Imagen inspiradora"
+      />
+      <img src="https://i.imgflip.com/u9pv5.jpg" alt="Imagen curiosa" />
+      <br /><br />
+      <div
+        style="width: 100%; height: 0; padding-bottom: 71%; position: relative"
+      >
+        <iframe
+          src="https://giphy.com/embed/fwbZnTftCXVocKzfxR"
+          width="100%"
+          height="100%"
+          style="position: absolute"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p>
+        <a
+          href="https://giphy.com/gifs/PLCnext-plcnext-phoenixcontact-plcnexttechnology-fwbZnTftCXVocKzfxR"
+          >via GIPHY</a
+        >
+      </p>
+    </section>
+
+    <section id="formulario">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <fieldset>
+          <legend>Informacion Personal</legend>
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required />
+          <br /><br />
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <br /><br />
+          <label for="intereses">Selecciona tus intereses:</label><br />
+          <input
+            type="checkbox"
+            id="lectura"
+            name="intereses"
+            value="lectura"
+          />
+          <label for="lectura">Lectura</label><br />
+          <input type="checkbox" id="musica" name="intereses" value="musica" />
+          <label for="musica">Música</label><br />
+          <input type="checkbox" id="viajes" name="intereses" value="viajes" />
+          <label for="viajes">Viajes</label><br /><br />
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="mexico">México</option>
+            <option value="espana">España</option>
+            <option value="argentina">Argentina</option>
+          </select>
+          <br /><br />
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+          <br /><br />
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar Todo</button>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>Conéctate conmigo en mis redes sociales:</p>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </footer>
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
